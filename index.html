@@ -34,7 +34,7 @@
 <body>
     
     <!-- header section code start here -->
-    <header>
+    <header class="container mx-auto">
 
         <!-- navber section code start here -->
         <nav class="md:mt-[30px] mt-3">
@@ -67,7 +67,7 @@
                             <li>
                                 <details>
                                     <summary>Services</summary>
-                                    <ul>
+                                    <ul class="z-10">
                                         <li><a href="#">survice-1</a></li>
                                         <li><a href="#">survice-2</a></li>
                                     </ul>
@@ -148,8 +148,30 @@
                 </div>
             </div>
         </nav>
-
         <!-- navber section code end here -->
+
+        <!-- hero area section code start here -->
+
+        <section class="mt-[50px]">
+            <div
+                    class="hero bg-cover bg-no-repeat"
+                    style="background-image: url(images/banner.png);">
+                    <div class="hero-overlay opacity-40"></div>
+                    <div class="hero-content text-neutral-content text-center my-[100px]">
+                        <div class="">
+                            <h1 class="mb-8 md:text-[4rem] text-3xl md:leading-[1] font-extrabold text-white">We Provide Effective <br>Legal Solutions</h1>
+                            <p class="mb-5 md:w-3/4 md:text-center text-justify mx-auto banner-description poppins-font">
+                                Justice means giving each person what he or she deserves or, in more traditional terms, giving each person his or her due. Justice and fairness are closely related terms that are often today used interchangeably.
+                            </p>
+                            <input type="search" name="" placeholder="Search Your Service" class="py-3 px-8 rounded-xl md:w-2/6 w-2/4 text-black poppins-font" id="">
+                            <button class="btn bg-primary-color text-white font-bold text-xl  border-none ml-[50px] poppins-font">Search</button>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        
+        <!-- hero area section code end here -->
     </header>
     <!-- header section code end here -->
 </body>

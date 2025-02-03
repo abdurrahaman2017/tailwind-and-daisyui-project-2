@@ -10,3 +10,9 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+
+.banner-description{
+    text-shadow:1px 1px 3px black;
+    background-color:rgba(0, 0, 0, 0.514);
+    border-radius: 20px;
+}
